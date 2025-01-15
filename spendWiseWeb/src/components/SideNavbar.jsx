@@ -11,6 +11,8 @@ export default function SideNavbar() {
         console.log("Logged Out")
     }
 
+    // check
+    
     return (
         <div className="absolute left-0 bg-black w-16 h-full flex flex-col items-center justify-center space-y-12">
             <i onClick={() => handleSelect('Overview')} className={`fi fi-rr-overview cursor-pointer hover:text-2xl duration-300 ${selected === 'Overview' ? 'text-white bg-gray-500 p-3 rounded-lg text-3xl ' : 'text-white text-lg'} `}></i>
