@@ -96,7 +96,7 @@ export default function MainScreen({
 
             <div className="flex-1 flex ml-16 pt-16">
                 {/* Left Section */}
-                <div className="w-3/4 h-full bg-gray-200 p-6 rounded-lg shadow-lg">
+                <div className="w-3/4 min-h-full bg-gray-200 p-6 rounded-lg shadow-lg">
                     <MenuScreen
                         selectedView={selectedView}
                         selectedIcon={selectedIcon}

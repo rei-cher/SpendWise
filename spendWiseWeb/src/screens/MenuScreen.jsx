@@ -6,10 +6,10 @@ export default function MenuScreen({
     selectedIcon
 }) {
     return (
-        <div>
+        <div className="h-full">
             {selectedView === 'Dashboard' && 
              selectedIcon === 'Overview' &&
-                <div className="flex-1 flex p-10">
+                <div className="p-10 h-full">
                     <DashboardOverviewScreen/>   
                 </div>
             }
